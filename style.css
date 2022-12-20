@@ -1,0 +1,601 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    /*padding: 7px 0;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #373C3F;
+}
+
+.header-title {
+    display: none;
+}
+
+.header-list {
+    margin-left: 37px;
+    display: flex;
+    gap: 32px;
+}
+
+.header-items {
+    color: #EBEBEB;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.hamburger-btn {
+    display: none;
+}
+
+.cross-btn {
+    display: none;
+}
+
+.pizza-logo {
+    margin-right: 37px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.section1-item {
+    padding-left: 37px;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: normal;
+    line-height: 34px;
+}
+
+#section1 {
+    padding-top: 58px;
+    width: 100%;
+    height: 650px;
+    background-image: url("images/header-fon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section1 .section-title {
+    color: #FFFFFF;
+    font-size: 62px;
+    line-height: 62px;
+}
+
+.link {
+    margin-top: 52px;
+    color: #A6D6E0;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+#section2 {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+}
+
+.wh-images {
+    width: 34%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-delivery {
+    background-image: url("images/Pizza delivery .png");
+}
+
+.img-salads {
+    background-image: url("images/UA_UX Salads fo.png");
+}
+
+.img-desserts {
+    background-image: url("images/Desserts fon.png");
+}
+
+.sign {
+    display: none;
+}
+
+.img-text {
+    display: flex;
+    justify-content: center;
+    font-size: 43px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+#section3 {
+    padding: 60px 12px 16px 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 9px;
+    color: #3F4043;
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    color: #CBCCCE;
+    font-size: 20px;
+}
+
+#section4 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.section-wrapper {
+    padding: 0 25px 0 25px;
+}
+
+.mint-title {
+    color: #ACD8AD;
+    background-color: #3F4043;
+}
+
+.white-title {
+    color: white;
+    background-color: #ACD8AD;
+}
+
+.menu-title {
+    padding: 14px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.grid-left-title {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-size {
+    /*margin-left: 25px;*/
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.menu-category {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #3F4043;
+}
+
+.information-price {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.food-name {
+    font-size: 26px;
+    color: #3F4043;
+}
+
+.price {
+    font-size: 27px;
+    font-weight: bold;
+    color: #3F4043;
+}
+
+.food-description {
+    margin-top: 16px;
+    font-size: 18px;
+    color: #3F4043;
+}
+
+.footer {
+    width: 100%;
+    padding: 7px 37px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ACD8AD;
+}
+
+.footer-information {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    color: white;
+}
+
+@media (max-width: 980px) {
+    .pizza-logo {
+        margin-right: 30px;
+    }
+
+    .hamburger-btn {
+        display: none;
+    }
+
+    .cross-btn {
+        display: none;
+    }
+
+    #section1 {
+        height: 530px;
+    }
+
+    .wh-images {
+        height: 327px;
+        background-position: center;
+    }
+
+    .img-text {
+        font-size: 40px;
+    }
+
+    .title {
+        font-size: 34px;
+    }
+
+    #section3 img {
+        width: 109px;
+        height: 89px;
+    }
+
+    .menu-title {
+        font-size: 32px;
+    }
+
+    .menu-category {
+        font-size: 23px;
+    }
+
+    .grid-left-title {
+        margin-top: 53px;
+    }
+
+    .snowflake-img img {
+        height: 42px;
+    }
+
+    .glass-img img {
+        height: 44px;
+    }
+
+    .cup-img img {
+        height: 39px;
+    }
+
+    .food-name {
+        font-size: 21px;
+    }
+
+    .food-description {
+        font-size: 16px;
+    }
+
+    .price {
+        font-size: 24px;
+    }
+
+    .information-price {
+        margin-top: 47px;
+    }
+}
+
+@media (max-width: 640px) {
+    .header {
+        height: 74px;
+        position: relative;
+    }
+
+    .pizza-logo {
+        margin-right: 0px;;
+    }
+
+    .header-list {
+        width: 243px;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(0, 100%);
+        background-color: white;
+    }
+
+    .header-items {
+        display: block;
+        flex-direction: column;
+        padding: 14px;
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #444444;
+        border-bottom: 1px solid;
+    }
+
+    .header-items:hover {
+        background-color: #F5F5F5;
+    }
+    
+    .header-title {
+        margin-left: 38px;
+        display: flex;
+        color: white;
+        font-family: "Gill Sans", sans-serif;
+        font-weight: normal;
+    }
+
+    .pizza-logo {
+        display: none;
+    }
+
+    .menu-wrapper {
+        height: 100%;
+    }
+
+    .hamburger-btn {
+        width: 82px;
+        height: 74px;
+        display: block;
+        background-color: #202529;
+        cursor: pointer;
+    }
+
+    .cross-btn {
+        width: 82px;
+        height: 74px;
+        display: none;
+        background-color: #202529;
+        cursor: pointer;
+    }
+
+    #section1 {
+        padding-top: 30px;
+        height: 346px;
+    }
+
+    #section1 .section-title {
+        font-size: 38px;
+        line-height: 38px;
+    }
+
+    .link {
+        margin-top: 15px;
+        font-size: 26px;
+    }
+
+    #section2 {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .img-delivery {
+        width: 100%;
+        background: url("images/Pizza delivery .png") 100% 74%;
+        height: 150px;
+    }
+
+    .img-salads {
+        width: 100%;
+        background: url("images/UA_UX Salads fo.png") 100% 62%;
+        height: 150px;
+    }
+
+    .img-desserts {
+        width: 100%;
+        background: url("images/Desserts fon.png") 100% 15%;
+        height: 150px;
+    }
+
+    .img-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    #section3 img {
+        display: none;
+    }
+
+    #section4 {
+        display: block;
+    }
+
+    .grid-right-side {
+        margin-top: 36px;
+    }
+
+    .wh-images {
+        margin-bottom: 2px;
+        display: flex;
+        justify-content: space-between;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sign {
+        width: 150px;
+        height: 100%;
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: #ACD8AD;
+    }
+
+    .footer img {
+        display: none;
+    }
+
+    .footer-information {
+        padding: 28px 118px 23px;
+        text-align: center;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        height: 37px;
+    }
+
+    .header-title {
+        font-size: 16px;
+    }
+
+    .menu-wrapper {
+        width: 44px;
+        height: 100%;
+    }
+
+    .hamburger-btn {
+        width: 100%;
+        height: 37px;
+        display: block;
+        cursor: pointer;
+    }
+
+    .cross-btn {
+        width: 100%;
+        height: 37px;
+        display: none;
+        cursor: pointer;
+    }
+
+    .header-list {
+        width: 182px;
+        display: none;
+    }
+
+    .header-items {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    #section1 {
+        height: 173px;
+    }
+
+    #section1 .section-title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .link {
+        margin-top: -4px;
+        font-size: 12px;
+    }
+
+    .wh-images {
+        height: 75px;
+    }
+
+    .img-text {
+        font-size: 20px;
+    }
+
+    .sign {
+        width: 71px;
+        padding: 30px;
+    }
+
+    .title {
+        margin-bottom: 4px;
+        font-size: 18px;
+    }
+
+    .img-delivery {
+        background: url("images/Pizza delivery .png") 100% 90%;
+    }
+
+    .img-salads {
+        background: url("images/UA_UX Salads fo.png") 100% 90%;
+    }
+
+    .img-desserts {
+        background: url("images/Desserts fon.png") 100% 15%;
+    }
+
+    #section3 {
+        padding: 30px 12px 16px 22px;
+    }
+
+    .paragraph {
+        font-size: 13px;
+    }
+
+    .menu-title {
+        font-size: 20px;
+    }
+
+    .menu-category {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .grid-left-title {
+        margin-top: 14px;
+    }
+
+    .snowflake-img img {
+        height: 25px;
+    }
+
+    .food-name {
+        font-size: 16px;
+    }
+
+    .information-price {
+        margin-top: 14px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+
+    .food-description {
+        margin-top: 8px;
+        font-size: 10px;
+    }
+
+    .glass-img img {
+        height: 24px;
+    }
+
+    .cup-img img {
+        height: 21px;
+    }
+
+    .footer {
+        margin-top: 50px;
+    }
+
+    .footer-information {
+        padding: 13px 38px 11px;
+        line-height: 12px;
+        font-size: 9px;
+    }
+}
+
+
